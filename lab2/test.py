@@ -54,7 +54,7 @@ print()
 
 print("Изменим значение элемента по ключу 4 c False на True 6:")
 map.change(4, True)
-print(f"После добавления элемента:")
+print(f"После изменения элемента:")
 map.inspect()
 
 print()

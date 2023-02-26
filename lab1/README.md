@@ -1,3 +1,3 @@
 #### лаба 1
-версия pyhon: 3.10.9
-проверка: python test.py
+<p>версия pyhon: 3.10.9</p>
+<p>проверка: python test.py</p>

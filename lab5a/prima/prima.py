@@ -21,7 +21,6 @@ class Prima:
                 if self.selected[i]:
                     for j in range(self.v):
                         if ((not self.selected[j]) and self.matrix[i][j]):
-                            # not in selected and there is an edge
                             if minimum > self.matrix[i][j]:
                                 minimum = self.matrix[i][j]
                                 x = i

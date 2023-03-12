@@ -1,0 +1,46 @@
+from kruskal import KruskalAlgorithm, Peak, Edge
+
+peak1 = Peak("a")
+peak2 = Peak("b")
+peak3 = Peak("c")
+peak4 = Peak("d")
+peak5 = Peak("e")
+peak6 = Peak("f")
+peak7 = Peak("g")
+
+edge1 = Edge(2, peak1, peak2)
+edge2 = Edge(6, peak1, peak3)
+edge3 = Edge(5, peak1, peak5)
+edge4 = Edge(10, peak1, peak6)
+edge5 = Edge(3, peak2, peak4)
+edge6 = Edge(3, peak2, peak5)
+edge7 = Edge(1, peak3, peak4)
+edge8 = Edge(2, peak3, peak6)
+edge9 = Edge(4, peak4, peak5)
+edge10 = Edge(5, peak4, peak7)
+edge11 = Edge(5, peak6, peak7)
+
+peakList = []
+peakList.append(peak1)
+peakList.append(peak2)
+peakList.append(peak3)
+peakList.append(peak4)
+peakList.append(peak5)
+peakList.append(peak6)
+peakList.append(peak7)
+
+edgeList = []
+edgeList.append(edge1)
+edgeList.append(edge2)
+edgeList.append(edge3)
+edgeList.append(edge4)
+edgeList.append(edge5)
+edgeList.append(edge6)
+edgeList.append(edge7)
+edgeList.append(edge8)
+edgeList.append(edge9)
+edgeList.append(edge10)
+edgeList.append(edge11)
+
+algorithm = KruskalAlgorithm()
+algorithm.spanningTree(peakList, edgeList)
